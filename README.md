@@ -5,13 +5,14 @@
 
 Binding system which includes any valid binding :
 
-    - Bind value to variable.
+- Bind value to variable.
 
-    - Bind value to namespace.  (DONE)
+- Bind value to namespace.  (DONE)
 
-    - Bind model to view and view to model (MVVM)
+- Bind model to view and view to model (MVVM)
 
-    - And many ideas
+- And many ideas
+
 # Install
 
 ```bash
@@ -21,13 +22,23 @@ npm install binding --save;
 or using CDN :
 
 ```js
-<script src=""></script>
+<script src="https://cdn.rawgit.com/abdennour/binding/master/cdn/binding-latest.min.js"></script>
 ```
 
-# Example :
+# Use Cases :
+
+1. Bind namespace to value :
 
 ```js
+const person = bind('name.firstname', 'Ahmed');
+// console.log(person.name.firstname) // Ahmed
+```
 
+2. Bind namespace to value and attach the object :
+
+```js
+bind('person.name.firstname', 'Ahmed', window);
+// console.log(person.name.firstname) // Ahmed
 ```
 
 # License:
