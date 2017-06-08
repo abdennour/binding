@@ -1,6 +1,6 @@
 {
   "name": "binding",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Still under development. It is not yet mature. Thank you for your understanding!",
   "main": "index.js",
   "scripts": {
