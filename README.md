@@ -30,14 +30,16 @@ or using CDN :
 1. Bind namespace to value :
 
 ```js
-const person = bind('name.firstname', 'Ahmed');
+import binding from 'binding';
+
+const person = binding('name.firstname', 'Ahmed');
 // console.log(person.name.firstname) // Ahmed
 ```
 
 2. Bind namespace to value and attach the object :
 
 ```js
-bind('person.name.firstname', 'Ahmed', window);
+binding('person.name.firstname', 'Ahmed', window);
 // console.log(person.name.firstname) // Ahmed
 ```
 

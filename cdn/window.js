@@ -1,1 +1,1 @@
-window.binding = require('../lib/index').default;
+window.binding = require('../lib/index');
