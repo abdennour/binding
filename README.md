@@ -3,12 +3,25 @@
 
 # Overview :
 
-Still under development. It is not yet mature. Thank you for your understanding!
+Binding system which includes any valid binding :
 
+    - Bind value to variable.
+
+    - Bind value to namespace.  (DONE)
+
+    - Bind model to view and view to model (MVVM)
+
+    - And many ideas
 # Install
 
 ```bash
 npm install binding --save;
+```
+
+or using CDN :
+
+```js
+<script src=""></script>
 ```
 
 # Example :
